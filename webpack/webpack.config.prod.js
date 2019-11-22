@@ -19,6 +19,9 @@ module.exports = merge(common, {
     new Webpack.optimize.ModuleConcatenationPlugin(),
     new MiniCssExtractPlugin({
       filename: 'bundle.css'
+    }),
+    new Webpack.optimize.LimitChunkCountPlugin({
+      maxChunks : 1
     })
   ],
   module: {

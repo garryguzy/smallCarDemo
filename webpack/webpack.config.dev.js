@@ -15,6 +15,9 @@ module.exports = merge(common, {
   plugins: [
     new Webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development')
+    }),
+    new Webpack.optimize.LimitChunkCountPlugin({
+      maxChunks : 1
     })
   ],
   module: {

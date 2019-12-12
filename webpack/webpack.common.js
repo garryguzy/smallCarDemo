@@ -29,7 +29,9 @@ module.exports = {
   resolve: {
     alias: {
       '~': Path.resolve(__dirname, '../src')
-    }
+    },
+    extensions: ['.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],
+    mainFiles: ['index', 'main'],
   },
   module: {
     rules: [

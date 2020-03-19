@@ -1,6 +1,19 @@
+@import './car.scss';
+
 $body-color: slateblue;
 
 body {
   color: $body-color;
   font-family: sans-serif;
+}
+
+.section1,.section2{
+  position: relative;
+  height: 2000px;
+}
+
+#app{
+  position: fixed;
+  height: 100%;
+  z-index: 2;
 }

@@ -41,9 +41,11 @@
     "eslint-loader": "^3.0.2",
     "eslint-plugin-import": "2.18.2",
     "file-loader": "^4.2.0",
+    "html-loader": "0.5.5",
     "html-webpack-plugin": "^4.0.0-beta.11",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.13.0",
+    "raw-loader": "4.0.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "ts-loader": "6.2.1",
@@ -55,9 +57,15 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
+    "@types/greensock": "1.15.32",
+    "@types/jquery": "3.3.31",
+    "@types/rx": "4.1.1",
     "core-js": "^3.4.1",
     "leancloud-storage": "4.0.0",
-    "rxjs": "6.5.3"
+    "mustache-loader": "1.4.3",
+    "rxjs": "6.5.3",
+    "scrollmagic": "2.0.7",
+    "text-loader": "0.0.1"
   },
   "bit": {
     "env": {},
